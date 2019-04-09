@@ -42,7 +42,7 @@ public class Account {
             return;
         }
         this.accountBalance = this.accountBalance - amount;
-        System.out.println("New balance is" + this.accountBalance + " after withdrawal of " + amount);
+        System.out.println("New balance is " + this.accountBalance + " after withdrawal of " + amount);
         withdrawls++;
     }
 
@@ -56,7 +56,7 @@ public class Account {
             return;
         }
         this.accountBalance = this.accountBalance + amount;
-        System.out.println("New balance is" + this.accountBalance + " after deposit of " + amount);
+        System.out.println("New balance is " + this.accountBalance + " after deposit of " + amount);
         deposits++;
     }
 }
