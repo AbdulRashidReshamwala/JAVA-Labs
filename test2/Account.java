@@ -26,6 +26,8 @@ public class Account {
         this.accountType = "Savings";
         this.withdrawls = 0;
         this.deposits = 0;
+        System.out.println("Account Created with name " + this.accountName + " of type" + this.accountType
+                + " with Account number " + this.accountNumber);
     }
 
     public void withdraw(double amount) {
