@@ -14,15 +14,16 @@ public class Account {
     private int withdrawls;
     private int deposits;
 
-    public Account(String name, int number) {
-        while (name.length() < 4 && (number > 10000 || number < 9999)) {
-            System.out.println("Enter correct name and account number");
+    public Account(String name, int number, int balance) {
+        while (name.length() < 4 && (number > 10000 || number < 9999) && balance < 1000 ) {
+            System.out.println("Enter correct name and account number and balance");
             name = sc.next();
             number = sc.nextInt();
+            balance = sc.nextInt();
         }
         this.accountName = name;
         this.accountNumber = number;
-        this.accountBalance = 1000;
+        this.accountBalance = balance;
         this.accountType = "Savings";
         this.withdrawls = 0;
         this.deposits = 0;
