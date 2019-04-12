@@ -14,6 +14,7 @@ public class program {
         s1.deposit(-100);
         s1.display();
         s1.display();
+        s1.display();
         c1.deposit(100);
         c1.withdraw(1100);
         r1.withdraw(100);
