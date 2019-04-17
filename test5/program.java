@@ -7,6 +7,7 @@ public class program {
         Animal tiger = new Tiger();
         tiger.makeNoise();
         tiger.makeNoise();
+        tiger.makeNoise();
         
     }
 }
